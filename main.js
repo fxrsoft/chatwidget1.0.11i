@@ -292,29 +292,29 @@ chatbotToggler.addEventListener("click", () => document.body.classList.toggle("s
 // Apply the image from the config
 //chatbotToggler.style.backgroundImage = `url(${config.toggleButtonImage})`;
 
-let chatbot = document.querySelector('.chatbot');
-// Apply the position from the config
-chatbotToggler.style.position = 'fixed';
-chatbot.style.position = 'fixed';
+// let chatbot = document.querySelector('.chatbot');
+// // Apply the position from the config
+// chatbotToggler.style.position = 'fixed';
+// chatbot.style.position = 'fixed';
 
-if (config.position.includes('top')) {
-  chatbotToggler.style.top = '0';
-  chatbot.style.right = '5px';
-  chatbot.style.top = '5px';
-} else {
-  chatbotToggler.style.bottom = '0';
-  chatbot.style.bottom = '5px';
-}
+// if (config.position.includes('top')) {
+//   chatbotToggler.style.top = '0';
+//   chatbot.style.right = '5px';
+//   chatbot.style.top = '5px';
+// } else {
+//   chatbotToggler.style.bottom = '0';
+//   chatbot.style.bottom = '5px';
+// }
 
-if (config.position.includes('left')) {
-  chatbotToggler.style.left = '0';
-  chatbot.style.left = '5px';
-  chatbot.style.bottom = '5px';
-} else {
-  chatbotToggler.style.right = '0';
-  chatbot.style.right = '5px';
-   chatbot.style.bottom = '5px';
-}
+// if (config.position.includes('left')) {
+//   chatbotToggler.style.left = '0';
+//   chatbot.style.left = '5px';
+//   chatbot.style.bottom = '5px';
+// } else {
+//   chatbotToggler.style.right = '0';
+//   chatbot.style.right = '5px';
+//    chatbot.style.bottom = '5px';
+// }
   }
   // Initialize the chatbot widget with config options
  initChatbotWidget(window.chatbotConfig);
