@@ -18,11 +18,7 @@ import { styles } from './assets.js';
   appDiv.innerHTML = `
     <button class="chatbot-toggler" style="position: fixed; ${config.position}: 0; margin: 9px;">
         
-    <span class="material-symbols-rounded" 
-      style="position: absolute; animation: blink ${config.animationBlinkSec} linear infinite; animation-fill-mode: forwards; animation-iteration-count: ${config.animationBlinkIteration}; color: ${config.toggleButtonTextColor} !important;
-       left: ${config.toggleButtonVPosition}; top: ${config.toggleButtonHPosition};
-        width: ${config.toggleButtonWidth}">
-        ${config.toggleButtonText}</span>
+    <span class="material-symbols-rounded">mode_comment</span>
       <span class="material-symbols-outlined" >close</span>
     </button>   
 
